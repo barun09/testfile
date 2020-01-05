@@ -1626,28 +1626,29 @@ input[type=submit] {
 }
 .icon-wrapper i {
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   color: #FFF;
-  padding: 1px 7.5px 0 8px;
+  text-align: center;
+  margin-top: 5px;
 }
 .icon-text {
   margin-left: 10px;
   display: flex;
   align-items: center;
 }
-.icon-text h4 {
-  font-family: 'Montserrat';
+.icon-text a h4 {
+  font-family: 'Poppins';
   font-size: 14px;
   font-weight: 400;
   margin: 0;
-  color: #212529;
+  color: #474747;
 }
 a.scrollTop {
   width: 40px;
   height: 40px;
   position: fixed;
   bottom: 30px;
-  right: 15px;
+  right: 30px;
   border-radius: 4px;
   background: linear-gradient(65deg,#5E52F6 0%,#8B82F9 100%);
   z-index: 99999;

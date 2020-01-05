@@ -101,3 +101,10 @@ $(document).ready(function(){
         }
     });
 });
+let whatsapp_url = document.getElementById("whatsApp");
+let host = "https://api.whatsapp.com";
+let phone = 917044635952;
+let msg = "I'm Interested! - Sent from theplusminus.co";
+let URImsg = encodeURI(msg);
+const qualified_whatsapp_url = host+'/send?phone='+phone+'&text='+URImsg;
+whatsapp_url.href = qualified_whatsapp_url;

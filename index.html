@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light" id="navbar">
@@ -188,7 +189,7 @@
             </div>
         </div>
     </section>
-    <section class="section position-relative" id="clients">
+    <section class="section position-relative" id="tesimonials">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -388,7 +389,19 @@
                                 <i class="ri-phone-fill"></i>
                             </div>
                             <div class="icon-text">
-                                <h4>+91 00000 00000</h4>
+                                <a href="tel:+91">
+                                    <h4>+91 00000 00000</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="icon-wrapper">
+                                <i class="ri-whatsapp-fill"></i>
+                            </div>
+                            <div class="icon-text">
+                                <a id="whatsApp" target="_blank" href="javascript:">
+                                    <h4>+91 00000 00000</h4>
+                                </a>
                             </div>
                         </div>
                         <div class="row">
@@ -396,7 +409,9 @@
                                 <i class="ri-mail-fill"></i>
                             </div>
                             <div class="icon-text">
-                                <h4>admin@theplusminus.co</h4>
+                                <a href="mailto:office@theplusminus.co">
+                                    <h4>Office@theplusminus.co</h4>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -466,9 +481,7 @@
             </div>
         </div>
     </footer>
-    <a href="#home" class="scrollTop">
-        <i class="lni-arrow-up"></i>
-    </a>
+    <a href="#home" class="scrollTop"><i class="lni-arrow-up"></i></a>
     <script src="js/jquery.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
