@@ -19,7 +19,7 @@ $(window).scroll(function() {
     }
 });
 // SmoothLink
-$('a').on('click', function(event) {
+$('.anchor-link a, a.anchor-link, a.scrollTop').on('click', function(event) {
     var $anchor = $(this);
     $('html, body').stop().animate({
         scrollTop: $($anchor.attr('href')).offset().top - 0
