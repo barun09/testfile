@@ -826,26 +826,6 @@ p {
   padding: 195px 0 140px 0px;
 }
 
-.hero-2-bg .hero-2-registration-form {
-  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.065);
-  padding: 40px;
-}
-
-.hero-2-bg .hero-2-registration-form .registration-form .form-control {
-  border-color: #ededed;
-}
-
-.hero-2-bg .hero-2-registration-form .registration-form .form-control:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-color: #b8b3fe;
-}
-
-.hero-2-bg .hero-2-registration-form .form-border {
-  border: 1px solid #efefef;
-}
-
 .hero-2-bg .hero-2-title {
   font-size: 2.6rem;
 }
@@ -1564,3 +1544,94 @@ a.btn-orange {
     margin-left: 0;
   }
 } 
+.contact-form {
+  margin: 0;
+  padding: 0;
+}
+.contact-form .form-control {
+  border-color: #ededed;
+}
+.contact-form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #b8b3fe;
+}
+.contact-form .form-border {
+  border: 1px solid #efefef;
+}
+.contact-form textarea {
+  resize: none !important;
+}
+.contact-form .form-control {
+  font-family: 'Montserrat' !important;
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.75;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  border-color: #ebebeb;
+  padding: 20px 20px;
+  transition: all 0.2s linear;
+}
+.contact-form .form-control:focus {
+  padding-left: 30px;
+}
+.contact-form .form-err-fname,
+.contact-form .form-err-lname,
+.contact-form .form-err-phone,
+.contact-form .form-err-email,
+.contact-form .form-err-msg {
+  font-family: 'Montserrat';
+  padding: 7.5px 0 0 0;
+  font-size: 12.5px;
+  color: tomato;
+}
+.contact-form .form-err-fname i,
+.contact-form .form-err-lname i,
+.contact-form .form-err-phone i,
+.contact-form .form-err-email i,
+.contact-form .form-err-msg i {
+  vertical-align: bottom;
+}
+input[type=submit] {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+.contact-info {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  background: #FFF;
+}
+.icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(65deg,#5E52F6 0%,#8B82F9 100%);
+  border-radius: 4px;
+  
+}
+.icon-wrapper i {
+  display: block;
+  font-size: 24px;
+  color: #FFF;
+  padding: 1px 7.5px 0 8px;
+}
+.icon-text {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.icon-text h4 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  color: #212529;
+}
