@@ -1657,6 +1657,7 @@ a.scrollTop {
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
+  opacity: 0;
 }
 a.scrollTop i {
   color: #FFF;
